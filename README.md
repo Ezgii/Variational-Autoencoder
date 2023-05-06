@@ -3,9 +3,9 @@
 In this project, an Auto Encoder (AE) and a Variational Auto Encoder (VAE) are designed in Python.
 
 ### Goals of the project
-* explore the gym framework for training RL agents.
-* apply my knowledge on VAE to learn image generation.
-* train generative models to produce sample pixel observation images from gym environments.
+* Explore the gym framework for training RL agents.
+* Apply my knowledge on VAE to learn image generation.
+* Train generative models to produce sample pixel observation images from gym environments.
 
 ### Environment
 [OpenAI's Gym](https://gym.openai.com/) is a framework for training reinforcement 
@@ -40,12 +40,17 @@ install torch with cuda:
 `python3 -m pip install -r requirements.txt`
 
 ### Code
-`MyVAE.py` - my VAE model   
-`train_vae.py` - script to collect pixel observations from gym environments using a random policy, and train the VAE model     
-`sample_vae.py` - samples from the VAE trained by train_vae.py    
+[MyVAE.py](https://github.com/Ezgii/Variational-Autoencoder/blob/master/MyVAE.py) - my VAE model   
+[train_vae.py](https://github.com/Ezgii/Variational-Autoencoder/blob/master/train_vae.py) - script to collect pixel observations from gym environments using a random policy, and train the VAE model     
+[sample_vae.py](https://github.com/Ezgii/Variational-Autoencoder/blob/master/sample_vae.py) - samples from the VAE trained by train_vae.py    
 
 ### How to run the code
 On terminal, write:
-'python3 MyVae.py'
-'python3 train_vae.py'
-'python3 sample_vae.py'
+
+`python3 MyVae.py`
+
+`python3 train_vae.py`
+
+`python3 sample_vae.py`
+
+### Results
